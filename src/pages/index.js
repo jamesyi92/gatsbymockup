@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import OwlCarousel from 'react-owl-carousel2'
 import 'react-owl-carousel2/lib/styles.css'
+import Odometer from 'react-odometerjs';
 
 const SectionWrap = styled.section`
   div.section{
