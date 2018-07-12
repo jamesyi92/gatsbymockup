@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import 'bootstrap';
-import $ from 'jquery'
 
 import Header from '../components/header'
 import './style.scss'
