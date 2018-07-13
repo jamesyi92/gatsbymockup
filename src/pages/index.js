@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import OwlCarousel from 'react-owl-carousel2'
 import 'react-owl-carousel2/lib/styles.css'
+import Modal from '../components/Modal'
 
 const SectionWrap = styled.section`
   div.section{
@@ -203,7 +204,7 @@ const IndexPage = () => (
                 Sterling + SureID, help<br/> you meet regulatory requirements
               </h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nemo rem expedita minima deserunt dolor voluptatem harum. Veritatis saepe amet nihil quasi dicta expedita labore soluta iste, placeat, aspernatur ipsa.</p>
-              <DarkButton href="#" className="btn btn-md">Learn More</DarkButton>
+              <Modal />
             </div>
           </div>
         </div>
