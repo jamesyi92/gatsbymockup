@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import OwlCarousel from 'react-owl-carousel2'
 import 'react-owl-carousel2/lib/styles.css'
 import Modal from '../components/Modal'
+import OdometerWrap from '../components/OdometerWrap'
 
 const SectionWrap = styled.section`
   div.section{
@@ -111,17 +112,6 @@ const options = {
     margin: 20
 };
 
-const DarkButton = styled.a`
-  &.btn{
-    border-radius: 100px;
-    background-color: #322c36;
-    border-color: #322c36;
-    color: #fff;
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-`
-
 const IndexPage = () => (
   <React.Fragment>
     <SectionWrap>
@@ -136,7 +126,7 @@ const IndexPage = () => (
             </MainHeadingCol>
             <MainHeadingCounter className="col-6">
               <h2>
-                20,743
+                <OdometerWrap />
               </h2>
             </MainHeadingCounter>
             <MainHeadingList className="col">

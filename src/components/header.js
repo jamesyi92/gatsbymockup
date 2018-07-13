@@ -44,11 +44,18 @@ const Header = ({ siteTitle }) => (
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
-            <Link className="nav-link" to="/page-2/">Why Sterling?</Link>
+          <li className="nav-item">
+            <Link activeStyle={{
+              fontWeight: "600"
+            }} 
+            className="nav-link" to="/page-2/">Why Sterling?</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link"to="/page-3/">Services</Link>
+            <Link 
+              activeStyle={{
+                fontWeight: "600"
+              }} 
+              className="nav-link"to="/page-3/">Services</Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Resources</a>
