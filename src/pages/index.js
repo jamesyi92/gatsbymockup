@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import OwlCarousel from 'react-owl-carousel2'
 import 'react-owl-carousel2/lib/styles.css'
 import Modal from '../components/Modal'
-import OdometerWrap from '../components/OdometerWrap'
 
 const SectionWrap = styled.section`
   div.section{
@@ -126,7 +125,7 @@ const IndexPage = () => (
             </MainHeadingCol>
             <MainHeadingCounter className="col-6">
               <h2>
-                <OdometerWrap />
+                20,743
               </h2>
             </MainHeadingCounter>
             <MainHeadingList className="col">
